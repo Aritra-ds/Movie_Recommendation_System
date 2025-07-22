@@ -1,0 +1,76 @@
+/* ---- GENERAL ---- */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #FF4B4B;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #444444;
+}
+
+/* ---- BUTTON STYLING ---- */
+button[kind="primary"] {
+    background-color: #FF4B4B;
+    color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+button[kind="primary"]:hover {
+    background-color: #ff2222;
+    transform: scale(1.05);
+}
+
+/* ---- STREAMLIT TEXT ELEMENTS ---- */
+.stButton > button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.stMarkdown {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ---- WATCHLIST MOVIES ---- */
+div[data-testid="stMarkdownContainer"] ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #333;
+}
+
+/* ---- SIDEBAR ---- */
+section[data-testid="stSidebar"] {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-right: 1px solid #e1e1e1;
+}
+
+section[data-testid="stSidebar"] h1 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* ---- SUCCESS / WARNING / INFO ---- */
+.stAlert {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+/* ---- SPACING ---- */
+.block-container {
+    padding: 2rem 3rem;
+}
